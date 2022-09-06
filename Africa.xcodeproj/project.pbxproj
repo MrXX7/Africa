@@ -26,6 +26,7 @@
 		ADD2FB9728C73E610028A89B /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = ADD2FB9328C73E610028A89B /* locations.json */; };
 		ADD2FB9828C73E610028A89B /* covers.json in Resources */ = {isa = PBXBuildFile; fileRef = ADD2FB9428C73E610028A89B /* covers.json */; };
 		ADD2FB9C28C740870028A89B /* VideoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD2FB9B28C740870028A89B /* VideoListView.swift */; };
+		ADD2FB9E28C74E080028A89B /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD2FB9D28C74E080028A89B /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		ADD2FB9428C73E610028A89B /* covers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = covers.json; sourceTree = "<group>"; };
 		ADD2FB9928C73FA60028A89B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		ADD2FB9B28C740870028A89B /* VideoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListView.swift; sourceTree = "<group>"; };
+		ADD2FB9D28C74E080028A89B /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 				ADD2FB6D28C732BA0028A89B /* AfricaApp.swift */,
 				ADD2FB6F28C732BA0028A89B /* ContentView.swift */,
 				ADD2FB9B28C740870028A89B /* VideoListView.swift */,
+				ADD2FB9D28C74E080028A89B /* MapView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -223,6 +226,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADD2FB7028C732BA0028A89B /* ContentView.swift in Sources */,
+				ADD2FB9E28C74E080028A89B /* MapView.swift in Sources */,
 				ADD2FB6E28C732BA0028A89B /* AfricaApp.swift in Sources */,
 				ADD2FB9C28C740870028A89B /* VideoListView.swift in Sources */,
 			);
