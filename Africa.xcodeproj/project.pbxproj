@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD20044F28CC617E00DA557C /* CoverImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD20044E28CC617E00DA557C /* CoverImageModel.swift */; };
 		AD4CC0B328CBAB4600FBD4B8 /* CoverImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4CC0B228CBAB4600FBD4B8 /* CoverImageView.swift */; };
 		ADD2FB6E28C732BA0028A89B /* AfricaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD2FB6D28C732BA0028A89B /* AfricaApp.swift */; };
 		ADD2FB7028C732BA0028A89B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD2FB6F28C732BA0028A89B /* ContentView.swift */; };
@@ -33,6 +34,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AD20044E28CC617E00DA557C /* CoverImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageModel.swift; sourceTree = "<group>"; };
 		AD4CC0B228CBAB4600FBD4B8 /* CoverImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageView.swift; sourceTree = "<group>"; };
 		ADD2FB6A28C732BA0028A89B /* Africa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Africa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADD2FB6D28C732BA0028A89B /* AfricaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfricaApp.swift; sourceTree = "<group>"; };
@@ -71,6 +73,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AD20044D28CC617300DA557C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AD20044E28CC617E00DA557C /* CoverImageModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		AD4CC0B128CBAB3B00FBD4B8 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +108,7 @@
 		ADD2FB6C28C732BA0028A89B /* Africa */ = {
 			isa = PBXGroup;
 			children = (
+				AD20044D28CC617300DA557C /* Model */,
 				AD4CC0B128CBAB3B00FBD4B8 /* View */,
 				ADD2FB9928C73FA60028A89B /* Info.plist */,
 				ADD2FB9028C73E490028A89B /* Data */,
@@ -245,6 +256,7 @@
 				ADD2FB7028C732BA0028A89B /* ContentView.swift in Sources */,
 				ADD2FBA228C74F410028A89B /* MainView.swift in Sources */,
 				AD4CC0B328CBAB4600FBD4B8 /* CoverImageView.swift in Sources */,
+				AD20044F28CC617E00DA557C /* CoverImageModel.swift in Sources */,
 				ADD2FB9E28C74E080028A89B /* MapView.swift in Sources */,
 				ADD2FB6E28C732BA0028A89B /* AfricaApp.swift in Sources */,
 				ADD2FB9C28C740870028A89B /* VideoListView.swift in Sources */,
