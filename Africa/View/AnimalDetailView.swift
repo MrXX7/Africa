@@ -32,6 +32,11 @@ struct AnimalDetailView: View {
                     .multilineTextAlignment(.leading)
                     .foregroundColor(.accentColor)
                     .padding(.horizontal)
+                
+                Group {
+                    HeadingView(headingImage: "photo.on.rectangle.angled", headingText: "Wilderness in Pictures")
+                }
+                .padding(.horizontal)
             }
             .navigationBarTitle("Learn about \(animal.name)", displayMode: .inline)
         }
