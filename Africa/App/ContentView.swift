@@ -8,8 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
+    let animals: [Animal] = Bundle.main.decode("animals.json")
     var body: some View {
-        let animals: [Animal] = Bundle.main.decode("animals-json")
         NavigationView {
             List {
                 CoverImageView()

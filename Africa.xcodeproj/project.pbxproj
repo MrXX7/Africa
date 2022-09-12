@@ -34,6 +34,7 @@
 		ADD2FB9E28C74E080028A89B /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD2FB9D28C74E080028A89B /* MapView.swift */; };
 		ADD2FBA028C74E5C0028A89B /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD2FB9F28C74E5C0028A89B /* GalleryView.swift */; };
 		ADD2FBA228C74F410028A89B /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD2FBA128C74F410028A89B /* MainView.swift */; };
+		ADFEF6A628CF5133009DA56E /* AnimalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFEF6A528CF5133009DA56E /* AnimalDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +67,7 @@
 		ADD2FB9D28C74E080028A89B /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		ADD2FB9F28C74E5C0028A89B /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
 		ADD2FBA128C74F410028A89B /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		ADFEF6A528CF5133009DA56E /* AnimalDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				AD4CC0B228CBAB4600FBD4B8 /* CoverImageView.swift */,
 				AD8A2A8428CE0BCD00478F8C /* AnimalListItemView.swift */,
+				ADFEF6A528CF5133009DA56E /* AnimalDetailView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -127,11 +130,11 @@
 				AD20045028CC628200DA557C /* Extension */,
 				AD20044D28CC617300DA557C /* Model */,
 				AD4CC0B128CBAB3B00FBD4B8 /* View */,
-				ADD2FB9928C73FA60028A89B /* Info.plist */,
 				ADD2FB9028C73E490028A89B /* Data */,
 				ADD2FB7B28C73DE80028A89B /* Video */,
 				ADD2FB9A28C740480028A89B /* App */,
 				ADD2FB7128C732BD0028A89B /* Assets.xcassets */,
+				ADD2FB9928C73FA60028A89B /* Info.plist */,
 				ADD2FB7328C732BD0028A89B /* Preview Content */,
 			);
 			path = Africa;
@@ -275,6 +278,7 @@
 				ADD2FBA228C74F410028A89B /* MainView.swift in Sources */,
 				AD4CC0B328CBAB4600FBD4B8 /* CoverImageView.swift in Sources */,
 				AD20044F28CC617E00DA557C /* CoverImageModel.swift in Sources */,
+				ADFEF6A628CF5133009DA56E /* AnimalDetailView.swift in Sources */,
 				AD8A2A8728CE155800478F8C /* AnimalModel.swift in Sources */,
 				ADD2FB9E28C74E080028A89B /* MapView.swift in Sources */,
 				ADD2FB6E28C732BA0028A89B /* AfricaApp.swift in Sources */,

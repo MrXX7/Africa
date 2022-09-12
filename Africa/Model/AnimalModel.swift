@@ -5,7 +5,7 @@
 //  Created by Oncu Can on 11.09.2022.
 //
 
-import Foundation
+import SwiftUI
 
 struct Animal: Codable, Identifiable {
     let id: String
@@ -14,6 +14,6 @@ struct Animal: Codable, Identifiable {
     let description: String
     let link: String
     let image: String
-    let gallery: String
+    let gallery: [String]
     let fact: [String]
 }

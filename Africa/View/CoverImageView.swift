@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct CoverImageView: View {
-    let coverImages: [CoverImage] = Bundle.main.decode("covers-json")
+    let coverImages: [CoverImage] = Bundle.main.decode("covers.json")
     var body: some View {
         TabView {
             ForEach(coverImages) { item in
@@ -27,3 +27,4 @@ struct CoverImageView_Previews: PreviewProvider {
             .previewLayout(.fixed(width: 400, height: 300))
     }
 }
+
