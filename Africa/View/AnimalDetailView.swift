@@ -12,9 +12,28 @@ struct AnimalDetailView: View {
     var body: some View {
         ScrollView(.vertical, showsIndicators: false) {
             VStack(alignment: .center, spacing: 20) {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+                Image(animal.image)
+                    .resizable()
+                    .scaledToFit()
+                
+                Text(animal.name.uppercased())
+                    .font(.largeTitle)
+                    .fontWeight(.heavy)
+                    .multilineTextAlignment(.center)
+                    .padding(.vertical, 8)
+                    .foregroundColor(.primary)
+                    .background(
+                        Color.accentColor
+                            .frame(height: 6)
+                            .offset(y: 24)
+                    )
+                Text(animal.headline)
+                    .font(.headline)
+                    .multilineTextAlignment(.leading)
+                    .foregroundColor(.accentColor)
+                    .padding(.horizontal)
             }
-            .navigationBarTitle("Learn about \(animal.headline)", displayMode: .inline)
+            .navigationBarTitle("Learn about \(animal.name)", displayMode: .inline)
         }
     }
 }

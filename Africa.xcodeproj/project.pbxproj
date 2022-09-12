@@ -10,6 +10,7 @@
 		AD20044F28CC617E00DA557C /* CoverImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD20044E28CC617E00DA557C /* CoverImageModel.swift */; };
 		AD20045228CC629600DA557C /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD20045128CC629600DA557C /* CodableBundleExtension.swift */; };
 		AD4CC0B328CBAB4600FBD4B8 /* CoverImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4CC0B228CBAB4600FBD4B8 /* CoverImageView.swift */; };
+		AD6982B128CF5E800003E4FA /* HeadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6982B028CF5E800003E4FA /* HeadingView.swift */; };
 		AD8A2A8528CE0BCD00478F8C /* AnimalListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8A2A8428CE0BCD00478F8C /* AnimalListItemView.swift */; };
 		AD8A2A8728CE155800478F8C /* AnimalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8A2A8628CE155800478F8C /* AnimalModel.swift */; };
 		ADD2FB6E28C732BA0028A89B /* AfricaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD2FB6D28C732BA0028A89B /* AfricaApp.swift */; };
@@ -41,6 +42,7 @@
 		AD20044E28CC617E00DA557C /* CoverImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageModel.swift; sourceTree = "<group>"; };
 		AD20045128CC629600DA557C /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
 		AD4CC0B228CBAB4600FBD4B8 /* CoverImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageView.swift; sourceTree = "<group>"; };
+		AD6982B028CF5E800003E4FA /* HeadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadingView.swift; sourceTree = "<group>"; };
 		AD8A2A8428CE0BCD00478F8C /* AnimalListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListItemView.swift; sourceTree = "<group>"; };
 		AD8A2A8628CE155800478F8C /* AnimalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalModel.swift; sourceTree = "<group>"; };
 		ADD2FB6A28C732BA0028A89B /* Africa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Africa.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -104,6 +106,7 @@
 				AD4CC0B228CBAB4600FBD4B8 /* CoverImageView.swift */,
 				AD8A2A8428CE0BCD00478F8C /* AnimalListItemView.swift */,
 				ADFEF6A528CF5133009DA56E /* AnimalDetailView.swift */,
+				AD6982B028CF5E800003E4FA /* HeadingView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -285,6 +288,7 @@
 				ADD2FB9C28C740870028A89B /* VideoListView.swift in Sources */,
 				ADD2FBA028C74E5C0028A89B /* GalleryView.swift in Sources */,
 				AD20045228CC629600DA557C /* CodableBundleExtension.swift in Sources */,
+				AD6982B128CF5E800003E4FA /* HeadingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
