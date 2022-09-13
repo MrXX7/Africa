@@ -38,6 +38,7 @@
 		ADD2FB9E28C74E080028A89B /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD2FB9D28C74E080028A89B /* MapView.swift */; };
 		ADD2FBA028C74E5C0028A89B /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD2FB9F28C74E5C0028A89B /* GalleryView.swift */; };
 		ADD2FBA228C74F410028A89B /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD2FBA128C74F410028A89B /* MainView.swift */; };
+		ADDDBF0C28D00FC60061C62A /* ExternalWeblinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDDBF0B28D00FC60061C62A /* ExternalWeblinkView.swift */; };
 		ADFEF6A628CF5133009DA56E /* AnimalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFEF6A528CF5133009DA56E /* AnimalDetailView.swift */; };
 /* End PBXBuildFile section */
 
@@ -75,6 +76,7 @@
 		ADD2FB9D28C74E080028A89B /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		ADD2FB9F28C74E5C0028A89B /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
 		ADD2FBA128C74F410028A89B /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		ADDDBF0B28D00FC60061C62A /* ExternalWeblinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExternalWeblinkView.swift; sourceTree = "<group>"; };
 		ADFEF6A528CF5133009DA56E /* AnimalDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -116,6 +118,7 @@
 				AD6982B228CF60090003E4FA /* InsetGalleryView.swift */,
 				AD7CF98328CF72F100306FB7 /* InsetFactView.swift */,
 				AD7CF98528CFAC6500306FB7 /* InsetMapView.swift */,
+				ADDDBF0B28D00FC60061C62A /* ExternalWeblinkView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -285,6 +288,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADDDBF0C28D00FC60061C62A /* ExternalWeblinkView.swift in Sources */,
 				ADD2FB7028C732BA0028A89B /* ContentView.swift in Sources */,
 				AD8A2A8528CE0BCD00478F8C /* AnimalListItemView.swift in Sources */,
 				ADD2FBA228C74F410028A89B /* MainView.swift in Sources */,
