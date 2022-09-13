@@ -34,8 +34,12 @@ struct AnimalDetailView: View {
                     .padding(.horizontal)
                 
                 Group {
-                    HeadingView(headingImage: "questionmark.circle", headingText: "Did you know?")
-                    InsetFactView(animal: animal)
+                    HeadingView(headingImage: "map", headingText: "National Parks")
+                    InsetMapView()
+                }
+                
+                Group {
+                    HeadingView(headingImage: "books.vertical", headingText: "Learn More")
                 }
                 .padding(.horizontal)
             }
@@ -45,9 +49,12 @@ struct AnimalDetailView: View {
 }
 
 struct AnimalDetailView_Previews: PreviewProvider {
-    static let animals: [Animal] = Bundle.main.decode("animals-json")
+    static let animals: [Animal] = Bundle.main.decode("animals.json")
     
     static var previews: some View {
+        NavigationView {
         AnimalDetailView(animal: animals[0])
     }
+        .previewDevice("iPhone Pro 11")
+}
 }
